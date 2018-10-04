@@ -10,7 +10,7 @@ class TestLanguang(TestCase):
         """
         question = "what is your favourite language for programming ?"
         self.tester = languang_class(question); #instanlize an object(tester) of language_class
-        self.languages = ["python","java","php"]
+        self.languages = ["python","java","php","css"]
 
     def test_store_language(self):
         self.tester.store_language(self.languages[0])
